@@ -1,12 +1,18 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
+INSTRUCTIONS:
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+A number is called a k-primeSum if it can be represented as a sum of k (not necessarily distinct) prime numbers. Implement a function that checks if the given number is k-primeSum or not.
+
+Example
+
+For n = 9 and k = 3, the output should be
+primeSum(n, k) = true.
+
+We can represent 9 as 2 + 2 + 5.
+
+Input/Output
+
+[time limit] 3000ms (java)
+[input] integer n
+
+Constraints:
+1 ≤ n ≤ 250.
